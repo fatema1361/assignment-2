@@ -1,4 +1,5 @@
 
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
 
 
 
@@ -147,13 +148,46 @@ margin-top:;
     margin-top: 100px;
     width: 100%;
 }
+/* footer styles */
+.footer{
+    display: flex;
+    justify-content: space-between;
+    margin-left: 150px;
+    margin-right: 100px;
+    margin-top: 100px;
+}
+.logo{
+    justify-content: space-between;
+    row-gap:10px;
+}
+.footer-feature .footer-about{
+    
+
+}
+div li a{
+    
+    text-decoration: none;
+    color: gray;
+    font-weight: bold;
+}
+div ul li{
+    list-style: none;
+}
 
 
-@media screen and (max-width:576px) {
-    nav, nav ul, .center, .banner, .flex, .flower-section{
-        flex-direction: column;
-    }
+
+
+
+@media (max-width:576px) {
+ .flex, nav, nav ul, .footer, .deals-both, .banner, .flower-section{
+            flex-direction: column;
+            width: 100%;
+        }
+    
     .flex{
+        display: grid;
         grid-template-columns:repeat(2, 1fr);
     }
+   
+    
 }
