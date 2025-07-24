@@ -174,9 +174,22 @@ div ul li{
     list-style: none;
 }
 
+.div{
+    position: absolute;
+    margin-top: -500px;
+    margin-left: 700px;
 
 
+}
+.search{
+    width: 500px;
+    height: 100px;
+    border: none;
+}
 
+/* .ful{
+    margin-top:-550px;
+} */
 
 @media (max-width:576px) {
  .flex, nav, nav ul, .footer, .deals-both, .banner, .flower-section{
